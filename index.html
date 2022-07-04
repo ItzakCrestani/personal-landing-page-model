@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zakk's Desk</title>
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">Zakk's Desk</a></h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#top3-jogos">top 3 jogos</a></li>
+            <li><a href="#top3-series">top 3 series</a></li>
+            <li><a href="#gallery">galeria</a></li>
+            <li><a href="#work">carreira</a></li>
+            <li><a href="#cars">3 marcas, 3 carros</a></li>
+            <li><a href="#contact">contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro section main-bg">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Bem-vindo ao meu quintal!</h2>
+
+          <p>
+            Aqui é onde eu coloco tudo o que eu ando ouvindo, jogando,
+            assistindo, praticando e amando! <br />
+            Sinta-se em casa!
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="assets/img/intro-img.svg" alt="Imagem PC Gamer" />
+        </div>
+      </div>
+    </section>
+
+    <section id="top3-jogos" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>top 3 jogos</h2>
+
+        <p>
+          <b>Final Fantasy VII Remake:</b> A história se passa na metrópole de
+          Midgar e acompanha o mercenário Cloud Strife, que se junta a um grupo
+          ecoterrorista em uma tentativa de impedir que a poderosa
+          megacorporação Shinra use a essência vital do planeta como fonte de
+          energia. A jogabilidade combina combate em tempo real com elementos de
+          estratégia.
+        </p>
+
+        <p>
+          <b>The Last of Us Part II:</b> se passa cinco anos após os
+          acontecimentos do primeiro jogo. Joel e Ellie estão em um acampamento
+          em Jackson, onde tentam levar uma vida normal. Nesse tempo, ela se
+          envolve com Dina em um relacionamento que vai amadurecendo ao longo do
+          jogo.
+        </p>
+
+        <p>
+          <b>Forza Horizon 5: </b>como entusiasta automotivo, não poderia deixar
+          de falar desse jogo! Pilote diversos dos melhores carros do mundo em
+          corridas fantásticas e expedições incríveis dentro de um vibrante
+          mundo aberto cheio de selvas, cidades históricas e ruínas ocultas nas
+          terras mexicanas.
+        </p>
+      </div>
+    </section>
+
+    <section id="top3-series" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">top 3 séries</h2>
+
+        <p class="grid-description">Um pouco sobre o que eu ando assistindo.</p>
+
+        <div class="grid">
+          <article>
+            <h3>This is Us</h3>
+
+            <p>
+              É uma série de drama familiar transmitida originalmente pela
+              National Broadcasting Company (NBC). A história acompanha a
+              emocionante vida dos Pearson, em momentos de alegria e desgosto,
+              revelações emergem do passado dos pais Jack e Rebecca, enquanto os
+              trigêmeos Kate, Randall e Kevin descobrem um significado mais
+              profundo em suas vidas atuais.
+            </p>
+          </article>
+
+          <article>
+            <h3>Arcane</h3>
+
+            <p>
+              A trama gira em torno de uma tecnologia mágica conhecida com
+              hextec que dá a qualquer pessoa a habilidade de controlar energia
+              mística e essa ferramenta acaba causando um desequilíbrio entre os
+              reinos. Ao longo dos episódio, a série apresentará ao público os
+              caminhos que os personagens percorreram para se tornar quem são,
+              além de também apresentar inúmeros personagens novos.
+            </p>
+          </article>
+
+          <article>
+            <h3>Outlander</h3>
+
+            <p>
+              Conta a história de Claire Randall (Caitriona Balfe), uma
+              enfermeira em combate no ano de 1945. Ela é misteriosamente
+              transportada através do tempo e mandada para 1743, e sua vida
+              passa a correr riscos que ela desconhece. Forçada a se casar com
+              Jamie Fraser (Sam Heughan), um cortês e nobre guerreiro escocês.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">galeria</h2>
+
+        <p class="grid-description">Um pouco sobre o meu hobby de fotografia.</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=1" alt="Imagem randômica do site Unsplash">
+          </div>
+
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=2" alt="Imagem randômica do site Unsplash">
+          </div>
+
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=3" alt="Imagem randômica do site Unsplash">
+          </div>
+
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=4" alt="Imagem randômica do site Unsplash">
+          </div>
+
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=5" alt="Imagem randômica do site Unsplash">
+          </div>
+
+          <div class="gallery-img">
+            <img src="https://source.unsplash.com/random/360x360?r=6" alt="Imagem randômica do site Unsplash">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">últimos trabalhos</h2>
+
+        <p class="grid-description">Minha tragetória recente.</p>
+
+        <div class="grid">
+          <article>
+            <h3>Film Maker e Editor</h3>
+
+            <p>
+              Trabalhei em uma estética automotiva chamada "Tavares Estética Automotiva"" como Film Maker, Editor de imagens e vídeos para as redes sociais e Youtube, gestor de marketing e redes sociais.
+            </p>
+          </article>
+
+          <article>
+            <h3>Diretor Administrativo e Comercial</h3>
+
+            <p>
+              Estive à frente do comercial e administrativo de uma distribuidora e e-commerce chamada +QTOP Distribuidora. <br> Nessa empresa eu era responsável pela compra, venda e distribuição de produtos importados diretamente da china. Cuidava também dos processos administrativos da empresa.
+            </p>
+          </article>
+
+          <article>
+            <h3>Programador</h3>
+
+            <p>
+              Atualmente estudo arduamente para me ingressar de vez no ramo da tecnologia como profissional de programação. <br> Atualmente já tenho domínio das linguagens HTML, CSS, JavaScript, TypeScript, Node.JS e Java e também das frameworks, libraries e databases como Angular, Spring Boot, Spring Security, Bootstrap, MySQL e Firebase.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cars" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>3 marcas, 3 carros</h2>
+
+        <p>
+          Nessa lista é onde eu gosto de depositar minha paixão incondicional pelo mundo automotivo. <br>
+          Deixo com vocês uma lista de <b>Top 3 Marcas</b> e o <b>Top 3 Carros</b> de cada uma:
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>Na ordem:</caption>
+  
+            <thead>
+              <tr></tr>
+              <th>Porsche</th>
+              <th>Audi</th>
+              <th>BMW</th>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td>911 GT3 992</td>
+                <td>R8 V10 Plus</td>
+                <td>M2 Competition</td>
+              </tr>
+              <tr>
+                <td>911 Turbo 993</td>
+                <td>Audi RS6 Avant</td>
+                <td>M3 E46</td>
+              </tr>
+              <tr>
+                <td>911 Turbo 997.5</td>
+                <td>Audi RS2</td>
+                <td>M5 E60</td>
+              </tr>
+            </tbody>
+  
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Louco, né?</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro section main-bg">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Quer fazer um contato?</h2>
+
+          <p>
+            Nada melhor do que ter um contato direto com alguém e trocar uma ideia! <br />
+            Cadastre-se e me mande um e-mail!
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="assets/img/contact-img.svg" alt="Imagem para contato" />
+        </div>
+      </div>
+
+      <div class="main-content contact-form">
+        <fieldset class="form-grid">
+          <legend>Contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/itzakcrestani/">Feito por Itzak Crestani</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+  </body>
+</html>
